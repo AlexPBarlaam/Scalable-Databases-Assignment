@@ -149,7 +149,7 @@ values
 (9,20),
 (10,23);
 
-/*
+
 SELECT tracking.TNearestTown, shifts.DID, shifts.VID
 FROM tracking, shifts
 WHERE 
@@ -184,7 +184,7 @@ SELECT drivers.DName, drivers.DAddress, drivers.DPhoneNum
 FROM drivers, shifts
 WHERE 
 shifts.SDID = 1 AND shifts.DID = drivers.DID
-*/
+
 
 DELIMITER //
 
